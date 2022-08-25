@@ -9,7 +9,7 @@ export class MensagemComponent implements OnInit {
   constructor() {}
 
   @Input()
-  mensagem = '';
+  mensagem = 'Mensagem de erro';
 
   ngOnInit(): void {}
 }
